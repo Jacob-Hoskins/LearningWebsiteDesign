@@ -1,0 +1,66 @@
+/*type selectors*/
+body{
+  margin: 0;
+  background-color: black;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header{
+  margin: 0;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #597859;
+  color: white;
+}
+
+h1{
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+h3{
+  font-size: 25px;
+  color: white;
+}
+
+p{
+  font-size: 17px;
+  color: white;
+}
+
+li{
+  display: inline;
+  padding: 0 50px 0 50px
+}
+
+/* Classes */
+.Intro-content{
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+/* background color is a placeholder until
+the image takes up the whole screen
+after the image takes up the whole div change text color */
+.Primary-content{
+  text-align: center;
+  border: solid black 3px;
+  margin: auto;
+  background-color: red;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+/*pseudo-code*/
+a:link{
+  color: #597859;
+  text-decoration: none;
+}
+
+
+/* ID's */
+#Header-subtext{
+  font-size: 21px;
+}
