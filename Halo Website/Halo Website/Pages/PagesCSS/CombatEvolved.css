@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+}
+
+a:visited{
+  color: white;
+}
+
+h2{
+  text-align: left;
+  color: white;
+  text-decoration: underline;
+}
+
+.ContentBorder{
+  border: solid white 2px;
+  margin: 150px;
+  padding: 10px 15px;
+}
