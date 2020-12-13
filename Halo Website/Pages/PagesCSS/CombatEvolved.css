@@ -2,14 +2,39 @@ body{
   margin: 0;
 }
 
+p{
+  color: black;
+}
+
+a:visited{
+  color: white;
+}
+
 h2{
   text-align: left;
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 
 .ContentBorder{
-  border: solid white 2px;
+  border: solid black 2px;
+  border-radius: 25px;
   margin: 150px;
   padding: 10px 15px;
+}
+
+.Intro-content{
+  border-bottom: solid black 2px;
+}
+
+.Review{
+  background-color: #6B7A8F;
+}
+
+.Summary{
+  background-color: #f7882f;
+}
+
+.Rating{
+  background-color: #F7C331;
 }

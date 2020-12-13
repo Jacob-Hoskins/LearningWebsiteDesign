@@ -1,7 +1,10 @@
 /*type selectors*/
+*{
+  box-sizing: border-box;
+}
+
 body{
   margin: 0;
-  background-color: black;
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -10,8 +13,9 @@ header{
   margin: 0;
   padding-bottom: 50px;
   text-align: center;
-  background-color: #597859;
+  background-color: #DCC7AA;
   color: white;
+  border-bottom: solid black 2px;
 }
 
 h1{
@@ -34,11 +38,17 @@ li{
   padding: 0 50px 0 50px
 }
 
+footer{
+  background-color: #DCC7AA;
+}
+
 /* Classes */
 .Intro-content{
   text-align: center;
   font-size: 17px;
   padding-bottom: 15px;
+  border-bottom: solid black 2px;
+  margin-bottom: 15px;
 }
 
 /* background color is a placeholder until
@@ -47,11 +57,25 @@ after the image takes up the whole div change text color */
 .Primary-content{
   text-align: center;
   border: solid black 3px;
+  border-radius: 25px;
   margin: auto;
-  background-color: red;
-  width: 30%;
+  width: 75%;
   margin-bottom: 10px;
+  max-width: 960px;
 }
+
+.CombatEvolvedColor{
+  background-color: #6B7A8F;
+}
+
+.GuardiansColor{
+  background-color: #f7882f;
+}
+
+.InfiniteColor{
+  background-color: #F7C331;
+}
+
 
 /*pseudo-code*/
 a:link{
